@@ -244,7 +244,7 @@
 ![ERD](./assets/c4_res3.jpg)
 
 ## DataBase Design Language
-ENTITY(<ins>PrimaryKey</ins>, NormalField ,ForeignKey*)
+ENTITY(<ins>PrimaryKey</ins>, NormalField,ForeignKey*)
 
 # C5 System Design
 - Show how system will fulfill what it is supposed to do
