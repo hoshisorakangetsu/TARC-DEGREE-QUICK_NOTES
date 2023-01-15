@@ -37,7 +37,7 @@
     - [Factors](#factors-affecting)
   - [Reports](#reports)
     - [Guidelines](#guidelines-for-creating)
-    - [Types](#types)
+    - [Types](#types-1)
     - [Attributes](#attributes-of-a-good-report)
 - [C6 DB Management](#c6-db-management)
   - [Concepts](#concepts)
