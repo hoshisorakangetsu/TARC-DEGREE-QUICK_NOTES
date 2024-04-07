@@ -31,7 +31,7 @@
     - Evaluate the architecture solution against the architecturally significant requirements
   - Architectural implementation
     - Implement the architecture by designer and developer with detailed design
-  Architectual maintenance
+  - Architectual maintenance
     - Modify and/or evolve architecture for correction and extensions
 
 # C2
