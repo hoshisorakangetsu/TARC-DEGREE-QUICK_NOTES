@@ -1,11 +1,40 @@
 # C1
 ## software architecture is a set of structure needed to reason the system, which comprise software elements, relations among them and property of both
-### what can you derive from a software architecture (question that ask using the quote)
+> what can you derive from a software architecture (question that ask using the quote)
   - Architecture is an abstraction, every software system has a software architecture and architecture includes behavior (can expand out lai say)
-## Architecture LifeCycle
-  - Architecture analysis -> architecture synthesis -> architecture evaluation -> architecture implementation -> architecture maintenance
+  - Software architecture is a set of structure
+    - Structure => a collection of elements linked by a relationship
+    - not every structure is designed to be architectural, only those that help reason about the system and its property can be considered architectural
+  - Software architecture is an abstraction
+    - Help pick part of system to prioritize, excluding details that don't affect overall composition
+    - Focus on software components (classes etc) and their interaction
+    - Essential for managing complexity
+      - enable viewing the system in terms of its components
+        - How they are organized
+        - How they interact
+        - What attributes they have
+  - Every system has an architecture
+    - Every system have components and relationships between them, which form the structures and architecture is just a set of structures
+    - All system will have an architecture, but not anyone can fully understand them
+  - Architecture includes behavior
+    - Capture how components interact with each other
+  - Not all architecture is a good architecture
 
-C2
+## Architecture LifeCycle
+> Architecture analysis -> architecture synthesis -> architecture evaluation -> architecture implementation -> architecture maintenance (normal flow)
+![ALC](./alc.png)
+  - Architecture analysis
+    - Examine architectural concerns and context in order to come up with a set of architecturally significant requirements
+  - Architectural synthesis
+    - Design architecture solution for the architecturally significant requirements
+  - Architectural evaluation
+    - Evaluate the architecture solution against the architecturally significant requirements
+  - Architectural implementation
+    - Implement the architecture by designer and developer with detailed design
+  Architectual maintenance
+    - Modify and/or evolve architecture for correction and extensions
+
+# C2
 ## Kruchten view model 4+1 (logical, process, implementation, deployment + scenarios) know all the connection
   - Logical (Design View)
     - Show key abstraction in the system as objects or object classes (module structure)
