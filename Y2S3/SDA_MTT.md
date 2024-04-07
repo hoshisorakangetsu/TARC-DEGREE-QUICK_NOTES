@@ -70,6 +70,16 @@
       - to validate the structures are not in conflict with each other and when work together, describes a system meeting its requirements
     - Viewer: All user of other views + Evaluators
     - Representation: Similar to logical view but with a few variations
+
+Diagrams used in the 4+1 View Model
+| View | Notations |
+|:--|:--|
+| Logical View | Class diagram, Object diagram, Sequence diagram, Communication diagram, State diagram |
+| Process View | Activity Diagram |
+| Development / Implementation View | Component diagram, Package diagram |
+| Physical View | Deployment Diagram |
+| Use case View | Use case diagram |
+
 ## which architecture design emphasis on different abstraction level, grouping the related process
 > how to draw architecture diagram
   - Layered Architecture
@@ -81,7 +91,9 @@
 
 # C3
 ## Don't overspecify the design (reason)
-  - 
+> she give eh answer when MTT Revision, but to me this more like how to not overspecify or like when we can know that we are overspecifying
+  - Detailed design is expressed entirely by programming language, when you use programming language, it can be too complex, unneccessary information will be captured
+  - Detailed design is expressed entirely in natural language, it can easily slip into ambiguity and inconsistency of the requirement of the stakeholder
 ## Software engineer insist to create design model before coding (or to have a clear understand of requirement before coding, see tutorial)
   - Quality assurance: Identify potential issues of the potentially problematic areas by outlining the system structure and flow.
   - Change management: Future changes or additions can be integrated more smoothly if there is a clear design model to follow
